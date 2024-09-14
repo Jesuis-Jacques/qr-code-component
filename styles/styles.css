@@ -5,7 +5,7 @@
 
   position: absolute;
 
-  height: 1440px;
+  height: 550px;
   width: 1440px;
 
   font-weight: 400, 700;
@@ -76,4 +76,17 @@
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+  .container {
+    height: 670px;
+    width: 375px;
+
+    padding: 5px;
+  }
+
+  .sub-container {
+    
+  }
 }
